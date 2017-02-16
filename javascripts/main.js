@@ -21,9 +21,9 @@ function countdown(day, hour, mins)
   diffhour = (diffhour >= 0 ? diffhour : diffhour+24);
   diffmins = (diffmins >= 0 ? diffmins : diffmins+60);
   document.getElementById("countdown").innerHTML = 
-    diffday + " days, " +
-    diffhour + " hours, " + 
-    diffmins + " minutes until Pub Night.";
+    diffday + " day(s), " +
+    diffhour + " hour(s), " + 
+    diffmins + " minute(s) until Pub Night.";
 }
 
 var d = new Date();
