@@ -1,3 +1,5 @@
+/* Hello there, if you are looking at this code, have a great day!*/
+
 var pubday = 4; pubhour = 17; pubminute = 30;
 var pubhourend = 19;
 
@@ -22,9 +24,7 @@ function countdown(day, hour, mins)
   if (diffmins < 0) { diffmins+=60; diffhour--;}
   if (diffhour < 0) { diffhour+=24; diffday--;}
   if (diffday < 0) { diffday+=7;}
-  /*diffmins = (diffmins >= 0 ? diffmins : diffmins+60);
-  diffhour = (diffhour >= 0 ? diffhour : diffhour+24);
-  diffday = (diffday >= 0 ? diffday : diffday+7);*/
+
   document.getElementById("countdown").innerHTML = 
     diffday + " day(s), " +
     diffhour + " hour(s), " + 
