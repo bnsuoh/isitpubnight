@@ -17,9 +17,12 @@ function countdown(day, hour, mins)
   diffday = pubday - day;
   diffhour = pubhour - hour;
   diffmins = pubminute - mins;
-  diffday = (diffday >= 0 ? diffday : diffday+7);
+  if (diffmins < 0) { diffmins+=60; diffhour--;}
+  if (diffhour < 0) { diffhour+=24; diffday--;}
+  if (diffday < 0) { diffday+=7;}
+  /*diffmins = (diffmins >= 0 ? diffmins : diffmins+60);
   diffhour = (diffhour >= 0 ? diffhour : diffhour+24);
-  diffmins = (diffmins >= 0 ? diffmins : diffmins+60);
+  diffday = (diffday >= 0 ? diffday : diffday+7);*/
   document.getElementById("countdown").innerHTML = 
     diffday + " day(s), " +
     diffhour + " hour(s), " + 
