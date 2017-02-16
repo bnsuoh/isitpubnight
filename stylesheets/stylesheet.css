@@ -1,23 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #212B74;
-  color: #FFD940;
-  font: 16px;
+  background-color: #273075;
+  color: #FDCD09;
   line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
-  padding-top:20%;
+  padding-top:12%;
 
 }
 
 #title {
-  font-size:150%;
+  font-size:3.3em;
+  margin: 0;
 }
 
 #demo {
-  margin-top: 10px;
-  font-size:800%;
+  margin: 0;
+  font-size:15em;
+  font-family: "Roboto", sans-serif;
+}
+#countdown {
+  font-size:1.4em;
 }
 /* General & 'Reset' Stuff
 
