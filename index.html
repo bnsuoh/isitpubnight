@@ -12,8 +12,29 @@
   </head>
 
   <body>
+  <p id="title"> Is it Pub Night? </p>
+  <p id="demo"></p>
+  <script>
+  	function isItPubNight(d)
+  	{
+  		var day = d.getDay();
+  		var hour = d.getHours();
+  		var minutes = d.getMinutes();
+  		if (day != 4) { return false; }
+  		if (hour < 17) { return false; }
+  		if (hour > 19) { return false; }
+      return true;
+  	}
 
-    <header>
+  	var d = new Date();
+  	var isItPub = isItPubNight(d);
+    if (isItPub == true)
+  	 document.getElementById("demo").innerHTML = "YES!";
+    else
+     document.getElementById("demo").innerHTML = "NO!";
+	</script>
+
+    <!-- <header>
       <div class="container">
         <h1>Websitetest</h1>
         <h2></h2>
@@ -54,7 +75,7 @@
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
       </section>
-    </div>
+    </div> -->
 
     
   </body>
