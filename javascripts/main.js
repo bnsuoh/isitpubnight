@@ -1,7 +1,7 @@
 /* Hello there, if you are looking at this code, have a great day!*/
 
 var pubday = 4; pubhour = 17; pubminute = 30;
-var pubhourend = 19;
+var pubhourend = 17;
 
 function isItPubNight(day, hour, mins)
 {
@@ -10,7 +10,7 @@ function isItPubNight(day, hour, mins)
 	if (hour < pubhour + 1)
    		if (mins < pubminute) return false;
 	if (hour > pubhourend + 1) return false;
-	if (hour > pubhourend)
+	if (hour >= pubhourend)
     	if (mins > pubminute) return false;
 	return true;
 }
