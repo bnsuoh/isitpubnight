@@ -11,15 +11,15 @@ body {
 }
 
 #title {
-  font-size:3.3em;
+  font-size:3em;
   margin: 0;
 }
 
 #demo {
   margin: 0;
-  font-size:15em;
+  font-size:14em;
   font-family: "Roboto", sans-serif;
 }
 #countdown {
-  font-size:1.4em;
+  font-size:1.8em;
 }
