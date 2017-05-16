@@ -25,10 +25,11 @@ function countdown(day, hour, mins)
   if (diffhour < 0) { diffhour+=24; diffday--;}
   if (diffday < 0) { diffday+=7;}
 
-  document.getElementById("countdown").innerHTML = 
-    diffday + " day(s), " +
-    diffhour + " hour(s), " + 
-    diffmins + " minute(s) until Pub Night.";
+  // document.getElementById("countdown").innerHTML = 
+  //   diffday + " day(s), " +
+  //   diffhour + " hour(s), " + 
+  //   diffmins + " minute(s) until Pub Night.";
+  document.getElementById("countdown").innerHTML = "It is not Pub Night."
 }
 
 var d = new Date();
