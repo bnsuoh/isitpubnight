@@ -1,6 +1,6 @@
 /* Hello there, if you are looking at this code, have a great day!*/
 
-var pubday = 2; pubhour = 17; pubminute = 30;
+var pubday = 8; pubhour = 17; pubminute = 30;
 var pubhourend = 19;
 
 function isItPubNight(day, hour, mins)
