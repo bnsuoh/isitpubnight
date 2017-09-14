@@ -35,7 +35,6 @@ function countdown(day, hour, mins)
      diffday + " day(s), " +
      diffhour + " hour(s), " + 
      diffmins + " minute(s) until Pub Night.";
-  document.getElementById("countdown").innerHTML = "It is not Pub Night."
 }
 
 var d = new Date();
