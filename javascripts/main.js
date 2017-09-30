@@ -68,7 +68,7 @@ else
 		 "until ";
   if (nextPubDay[1] == pubType.CLASSY)
 		document.getElementById("countdown").innerHTML += "Classy ";
-  else if (nextPubDay[2] == pubType.SOPH)
+  else if (nextPubDay[1] == pubType.SOPH)
 		document.getElementById("countdown").innerHTML += "Sophomore ";
 	document.getElementById("countdown").innerHTML += "Pub Night."
 }
