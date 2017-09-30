@@ -10,17 +10,17 @@ var nextPubDay;
 
 var pubdays =
 [
-	[new Date("9/14/17"),  pubType.REGULAR],
-	[new Date("9/21/17"),  pubType.REGULAR],
-	[new Date("9/28/17"),  pubType.CLASSY],
-	[new Date("10/5/17"),  pubType.REGULAR],
-	[new Date("10/12/17"), pubType.SOPH],
+	[new Date("9/14/17" ), pubType.REGULAR],
+	[new Date("9/21/17" ), pubType.REGULAR],
+	[new Date("9/28/17" ), pubType.CLASSY],
+	[new Date("10/5/17" ), pubType.SOPH],
+	[new Date("10/12/17"), pubType.REGULAR],
 	[new Date("10/19/17"), pubType.REGULAR],
 	[new Date("10/26/17"), pubType.CLASSY],
-	[new Date("11/9/17"),  pubType.SOPH],
+	[new Date("11/9/17" ), pubType.SOPH],
 	[new Date("11/16/17"), pubType.REGULAR],
 	[new Date("11/30/17"), pubType.CLASSY],
-	[new Date("12/7/17"),  pubType.REGULAR],
+	[new Date("12/7/17" ), pubType.REGULAR],
 	[new Date("12/14/17"), pubType.CLASSY],
 ];
 
@@ -55,8 +55,6 @@ if (isItPubNight(d))
 }
 else
 {
-	console.log(nextPubDay[0]);
-	console.log(d);
 	document.getElementById("demo").innerHTML = "NO";
 	d = new Date();
 	var distance = nextPubDay[0].getTime() - d.getTime();
