@@ -22,6 +22,8 @@ var pubdays =
 	[new Date("11/30/17"), pubType.CLASSY],
 	[new Date("12/7/17" ), pubType.REGULAR],
 	[new Date("12/14/17"), pubType.CLASSY],
+	[new Date("1/11/18"), pubType.SOPH],
+	[new Date("1/23/18"), pubType.REGULAR]
 ];
 
 function isItPubNight(d)
@@ -49,7 +51,7 @@ if (isItPubNight(d))
 	document.getElementById("demo").innerHTML = "YES!";
 	var message = "It is ";
 	if (pubDay[1] == pubType.CLASSY) message += "Classy ";
-	else if (pubDay[2] == pubType.SOPH) message += "Sophomore ";
+	else if (pubDay[1] == pubType.SOPH) message += "Sophomore ";
 	message += "Pub Night!";
   document.getElementById("countdown").innerHTML = message;
 }
