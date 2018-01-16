@@ -23,6 +23,7 @@ var pubdays =
 	[new Date("12/7/17" ), pubType.REGULAR],
 	[new Date("12/14/17"), pubType.CLASSY],
 	[new Date("1/11/18"), pubType.SOPH],
+	[new Date("1/16/18"), pubType.SOPH],
 	[new Date("1/23/18"), pubType.REGULAR]
 ];
 
