@@ -21,7 +21,6 @@ var pubdays =
 	[new Date("4/12/18" ), pubType.REGULAR],
 	[new Date("4/19/18" ), pubType.REGULAR],
 	[new Date("4/26/18" ), pubType.CLASSY],
-	[new Date("5/3/18" ), pubType.REGULAR],
 	[new Date("5/10/18" ), pubType.REGULAR],
 	[new Date("5/15/18" ), pubType.REGULAR],
 	[new Date("5/24/18" ), pubType.CLASSY],
