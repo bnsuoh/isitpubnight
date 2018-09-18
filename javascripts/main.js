@@ -10,20 +10,17 @@ var nextPubDay;
 
 var pubdays =
 [
-	[new Date("2/8/18" ), pubType.REGULAR],
-	[new Date("2/15/18" ), pubType.REGULAR],
-	[new Date("2/22/18" ), pubType.CLASSY],
-	[new Date("3/1/18" ), pubType.REGULAR],
-	[new Date("3/8/18" ), pubType.REGULAR],
-	[new Date("3/15/18" ), pubType.REGULAR],
-	[new Date("3/29/18" ), pubType.CLASSY],
-	[new Date("4/5/18" ), pubType.REGULAR],
-	[new Date("4/12/18" ), pubType.REGULAR],
-	[new Date("4/19/18" ), pubType.REGULAR],
-	[new Date("4/26/18" ), pubType.CLASSY],
-	[new Date("5/10/18" ), pubType.REGULAR],
-	[new Date("5/15/18" ), pubType.REGULAR],
-	[new Date("5/24/18" ), pubType.CLASSY],
+	[new Date("9/27/18" ), pubType.CLASSY],
+	[new Date("10/4/18" ), pubType.REGULAR],
+	[new Date("10/11/18" ), pubType.REGULAR],
+	[new Date("10/18/18" ), pubType.REGULAR],
+	[new Date("10/25/18" ), pubType.REGULAR],
+	[new Date("11/1/18" ), pubType.REGULAR],
+	[new Date("11/8/18" ), pubType.REGULAR],
+	[new Date("11/15/18" ), pubType.REGULAR],
+	[new Date("11/29/18" ), pubType.CLASSY],
+	[new Date("12/6/18" ), pubType.REGULAR],
+	[new Date("12/13/18" ), pubType.REGULAR],
 ]
 
 function isItPubNight(d)
