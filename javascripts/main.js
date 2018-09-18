@@ -10,6 +10,7 @@ var nextPubDay;
 
 var pubdays =
 [
+	[new Date("9/20/18" ), pubType.REGULAR],
 	[new Date("9/27/18" ), pubType.CLASSY],
 	[new Date("10/4/18" ), pubType.REGULAR],
 	[new Date("10/11/18" ), pubType.REGULAR],
