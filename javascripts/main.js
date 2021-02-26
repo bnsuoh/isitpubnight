@@ -79,5 +79,7 @@ else {
 		document.getElementById("countdown").innerHTML += "Classy ";
 	else if (nextPubDay[1] == pubType.SOPH)
 		document.getElementById("countdown").innerHTML += "Sophomore ";
+	else if (nextPubDay[1] == pubType.VIRTUAL)
+		document.getElementById("countdown").innerHTML += "Virtual ";
 	document.getElementById("countdown").innerHTML += "Pub Night."
 }
